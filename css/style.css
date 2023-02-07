@@ -1,0 +1,53 @@
+.container {
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 50px 50px;
+  background: #c4c4c4;
+}
+span {
+  display: block;
+  width: 200px;
+  text-align: center;
+  padding: 62.5px 0;
+  background: #fc8f8f;
+  color: #ffffff;
+
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+}
+.conteiner_box {
+  background: #e6e6e6;
+  overflow: hidden;
+
+  margin: 50px 0;
+  padding: 0;
+}
+.first span:first-child {
+  float: left;
+}
+.first span:last-child {
+  float: right;
+}
+.second span:first-child {
+  float: left;
+}
+.reverse_box {
+  float: right;
+}
+.reverse_box span {
+  width: 100px;
+  padding: 12.5px 0;
+  margin-left: 15px;
+}
+.second span:nth-child(n + 2) {
+  float: left;
+}
+.third span:nth-child(-n + 2) {
+  float: left;
+  margin-right: 15px;
+}
+.reverse_box-too {
+  float: right;
+  margin: 0 -15px 0 15px;
+}
